@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Lec 1</title>
+</head>
+
+<body>
+    <!-- Id -->
+    <h1 id="one">
+        <p>Hello</p> One
+    </h1>
+
+    <!-- Class  -->
+    <ul>
+        <li class="list"><h3>English</h3> Hello</li>
+        <li class="list">Hola</li>
+        <li class="list">Namaste</li>
+    </ul>
+    <script>
+        // id 
+        let var1 = document.getElementById("one");
+        console.log(var1.innerHTML);
+        console.log(var1.innerText);
+
+        // class
+        let var2 = document.getElementsByClassName("list");
+        console.log(var2[0].innerText);
+        console.log(var2[0].innerHTML);
+        var2[2].innerText="NodeJs"
+    </script>
+</body>
+
+</html>

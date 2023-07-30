@@ -1,0 +1,37 @@
+@media (max-width:640px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .hero-left-section {
+        width: 100vw;
+    }
+
+    .hero-right-section {
+        width: 100vw;
+    }
+
+    .hero-right-section img {
+        height: 300px;
+        width: 300px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction:column;
+        /* justify-content: baseline; */
+        height: 200px;
+        align-items: center;
+        /* color: aliceblue; */
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+    footer ul li a i {
+        margin-top: -2000px;
+    }
+}

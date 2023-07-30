@@ -1,0 +1,20 @@
+body{
+    background-color:#131a21 ;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: "Welcome to demo page";
+    color: aqua;
+}
+@media (min-width: 900px){
+    body{
+        background-color: blueviolet;
+    }
+    div::after{
+        content: "It's working";
+        color: #131a21;
+    }
+}
